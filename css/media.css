@@ -1,0 +1,89 @@
+#main-nav {
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-nav ul li a {
+  padding: 0.5rem;
+}
+
+#section-b .levis-pepe-container,
+#section-c .benetton-container,
+#section-d .lowers-container,
+#section-e .netplay-container,
+#section-f .reckless-container,
+#section-g .roundneck-container,
+#section-h .benetton-tshirts-container,
+#section-j .formals-container,
+#section-k .shoes-container,
+#section-l .socks-container,
+#section-o .park-avenue-container,
+#section-p .night-container,
+#section-r .lowers-capris-container {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.l-heading {
+  font-size: 2.5rem;
+}
+
+.lead {
+  font: 0.8rem;
+}
+
+@media (max-width: 600px) {
+  #footer .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  #main-nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #showcase {
+    height: 50vh;
+  }
+
+  #showcase .showcase-content {
+    height: 50vh;
+  }
+
+  #showcase .showcase-content p {
+    display: none;
+  }
+
+  #showcase .showcase-content a {
+    padding: 0.25rem 0.5rem;
+    margin-top: 2rem;
+  }
+
+  #section-a .attitude-container,
+  #section-b .levis-pepe-container,
+  #section-c .benetton-container,
+  #section-d .lowers-container,
+  #section-e .netplay-container,
+  #section-f .reckless-container,
+  #section-g .roundneck-container,
+  #section-h .benetton-tshirts-container,
+  #section-i .dxi-container,
+  #section-j .formals-container,
+  #section-k .shoes-container,
+  #section-l .socks-container,
+  #section-m .undergarments-container,
+  #section-n .girls-levis-container,
+  #section-o .park-avenue-container,
+  #section-p .night-container,
+  #section-r .lowers-capris-container,
+  #section-s .kids-container,
+  #section-t .accessories-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .l-heading {
+    font-size: 2rem;
+  }
+}
